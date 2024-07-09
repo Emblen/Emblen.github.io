@@ -1,0 +1,28 @@
+/* styles.css */
+
+/* デフォルトのボタンスタイル */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    margin: 10px;
+}
+  
+/* 強調表示されたボタンのスタイル */
+button.active {
+    background-color: #28a745;
+    color: #fff;
+    cursor: default;
+}
+  
+/* 無効化されたボタンのスタイル */
+button.disabled {
+    background-color: #6c757d;
+    color: #fff;
+    cursor: not-allowed;
+}
+  
